@@ -45,21 +45,21 @@ import time
 #import scrollphathd
 
 # Specifiy your feed access key. See https://api.mta.info/#/AccessKey
-my_api_key = 'YOUR_API_KEY'
+# my_api_key = 'YOUR_API_KEY'
 
 # Which subway feed should be used for your stop?
 # List of feeds: https://api.mta.info/#/subwayRealTimeFeeds
-my_feed_url = 'https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs-bdfm'
+# my_feed_url = 'https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs-bdfm'
 
 # What station do you want to monitor? 
 # http://web.mta.info/developers/data/nyct/subway/Stations.csv
 #
 # Determine "GTFS Stop ID" and suffix direction.
 # For example 'R31N' for "Northbound Atlantic Av - Barclays Ctr"
-my_stop_id = 'R31N'
+# my_stop_id = 'R31N'
 
 # How long does it take in minutes to walk to this station?
-my_walking_time = 3
+# my_walking_time = 3
 
 # How long should we wait before refreshing MTA feed? MTA says feeds are
 # generated every 30 seconds, so anything less wouldn't make sense.
