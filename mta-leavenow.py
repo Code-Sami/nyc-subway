@@ -38,6 +38,7 @@
 #
 # For more information, please refer to <http://unlicense.org>
 # =============================================================================
+pip install nyct-gtfs
 from nyct_gtfs import NYCTFeed
 import threading
 import datetime
